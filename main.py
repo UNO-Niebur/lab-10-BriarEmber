@@ -19,8 +19,8 @@ def main():
 
     plt.plot(x, y)
 
-    plt.xlabel("Trial Number")
-    plt.ylabel("Reaction Time (ms)")
+    plt.xlabel("Trial Number") #the actual trial number 
+    plt.ylabel("Reaction Time (ms)") #how long it took in each time
     plt.title("Reaction Times in Trials")
 
     plt.savefig("datagraph.png")
